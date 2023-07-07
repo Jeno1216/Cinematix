@@ -18,36 +18,37 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-        <header class="d-flex justify-content-center" style="border: 1px solid red;">
+        <header class="d-flex justify-content-center ">
 
-            <div class="top-element-container position-relative" style="height: 100vh;width: 100%;">
-            <div class="top-element" style="position: absolute; top: 0; height: 100%; width: 100%;">
+            <div class="top-element" style="position: relative; top: 0; height: 100%; width: 100%;">
                 <div class="home-gradient-overlay-top"></div>
+
                 <img src="https://www.pixground.com/wp-content/uploads/2023/04/The-Little-Mermaid-2023-4K-Wallpaper-jpg.webp" alt="" style="height: 100vh; width: 100%; object-fit: cover;">
                 <div class="home-gradient-overlay-bottom"></div>
                 
-            </div>
+                <div class=" col-12  d-flex justify-content-center align-items-center " style="position: absolute; bottom: 15%;">
 
-            <div class=" col-12  d-flex justify-content-center align-items-center " style="position: absolute; bottom: 0;">
+                    <div class="slide-content text-center">
+                        <p class="text-light" style="font-size: 30px; line-height: 0.5;">
+                            The Little Mermaid
+                        </p>                    
+                        <p class="" style="font-size: 12px; color: rgb(211, 211, 211); ">
+                            Music . Romance . Fantasy . Drama
+                        </p>                        
 
-                <div class="slide-content text-center">
-                    <p class="text-light" style="font-size: 30px;">
-                        The Little Mermaid
-                    </p>                    
-                    <p class="" style="font-size: 12px; color: rgb(211, 211, 211); ">
-                        Music . Romance . Fantasy . Drama
-                    </p>                        
-
-                    <div class=" col-12  d-flex justify-content-center align-items-center gap-3">
-                        <a href="#"><button class="px-3 py-1 border-0 rounded text-light shadow" style="background-color: #ff2c1f;">Book Now</button></a>
-                        <a href="#" class="play bi bi-play " style="font-size: 30px; "></a>
-
+                        <div class=" col-12  d-flex justify-content-center align-items-center gap-3">
+                            <a href="#"><button class="px-3 py-1 border-0 rounded text-light shadow" style="background-color: #ff2c1f;">Book Now</button></a>
+                            <a href="#" class="play bi bi-play " style="font-size: 30px; "></a>
+                                
+                        </div>
+        
+        
                     </div>
+                
                 </div>
+    
+            
             </div>
-
-        </div>
-
 
             <div class="top-element" style="position: relative; top: 0; height: 100vh; width: 100%;">
                 <div class="home-gradient-overlay-top"></div>
@@ -105,6 +106,7 @@
             </div>
 
             <div class="text-light position-absolute " style="bottom: 5%;">
+                
                 <a class="prev" onclick="plusSlides(-1)">&#10094</a> <!--&#10094 is "<"-->        
                 <span class="dot" onclick="currentSlide(1)">1</span>
                 <span class="dot" onclick="currentSlide(2)">2</span>
