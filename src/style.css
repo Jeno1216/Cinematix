@@ -106,7 +106,7 @@ header{
     position: relative;
     z-index: 2;
 }
-.top-element{
+.change-element{
     display: none;
 }
 
