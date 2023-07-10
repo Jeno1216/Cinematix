@@ -82,9 +82,9 @@ header{
     z-index: 1;
 }
 
-.home-gradient-overlay-bottom {
+.home-gradient-overlay-bottom, .book-gradient-overlay-bottom{
     position: absolute;
-    top: 300px;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -203,22 +203,23 @@ header{
     transition: .2s;
 }
 
-.movie-scroll-container {
+.movie-scroll-container, .schedule-scroll-container {
   overflow-x: auto;
   width: 100%;
   white-space: nowrap;
 }
 
-.movie-scroll-container::-webkit-scrollbar {
+.movie-scroll-container::-webkit-scrollbar, .schedule-scroll-container::-webkit-scrollbar{
   width: 6px;
-  background-color: #000000;
+  background-color: #00000000;
 }
 
-.movie-scroll-container::-webkit-scrollbar-track {
-  background-color: #000000;
+.movie-scroll-container::-webkit-scrollbar-track, .schedule-scroll-container::-webkit-scrollbar-track {
+  background-color: #00000000;
+  
 }
 
-.movie-scroll-container::-webkit-scrollbar-thumb {
+.movie-scroll-container::-webkit-scrollbar-thumb, .schedule-scroll-container::-webkit-scrollbar-thumb {
   background-color: #666666;
 }
 
