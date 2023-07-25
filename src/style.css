@@ -252,3 +252,15 @@ header{
     margin: 0 auto;
     text-align: center;
 }
+
+/* CSS for the fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-in.fade-in-active {
+    opacity: 1;
+    transform: translateY(0);
+}
