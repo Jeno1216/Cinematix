@@ -14,10 +14,7 @@ nav{
     height: 100px;
     width: 90%;
 }
-header{
-    font-size: 14px;
 
-}
 .active {
     color: #e1e1e1;
     cursor: pointer;
@@ -264,3 +261,16 @@ header{
     opacity: 1;
     transform: translateY(0);
 }
+
+
+.radio-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    text-align: center;
+  }
+/* Hide the default radio button appearance */
+.radio-button input[type="radio"] {
+    display: none;
+  }
