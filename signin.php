@@ -155,6 +155,9 @@ if (isset($_POST['submit'])) {
 
             <br>
 
+            <p class="text-white"> Not registered? <i style="color:#ff2c1f"><a href="register.php" style="color:#ff2c1f; text-decoration: none;"> Register</a> </i></p>
+
+
             <?php
             if (isset($error)) {
               foreach ($error as $error) {
@@ -165,6 +168,8 @@ if (isset($_POST['submit'])) {
             <br><br>
 
             <input type="submit" name="submit" value="Submit" class="form-btn submit">
+
+
 
           </form>
 

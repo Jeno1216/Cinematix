@@ -150,15 +150,14 @@ if (isset($_POST['submit'])) {
                         <label for="images"> Upload ID Photo </label><br>
                         <input type="file" name="images" id="images" required>
 
-
-
-
                         <br>
+                        <br>
+                        <p class="text-white"> Already have an account? <i style="color:#ff2c1f"><a href="signin.php" style="color:#ff2c1f; text-decoration: none;"> Sign in</a> </i></p>
 
                         <?php
                         if (isset($error)) {
                             foreach ($error as $error) {
-                                echo '<span class="error-msg" style="color: white">' . $error . '</span>';
+                                echo '<span class="error-msg" style="color: #ff2c1f">' . $error . '</span>';
                             };
                         };
                         ?>
